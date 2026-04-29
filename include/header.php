@@ -13,7 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous">
     </script>
 
-    <link href="/portfolio/style/style.css" rel="stylesheet">
+    <link href="/portfolio-bts/style/style.css" rel="stylesheet">
 </head>
 
 <body>

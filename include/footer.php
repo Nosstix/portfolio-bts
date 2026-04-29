@@ -4,19 +4,19 @@
         <div class="footer-logo">Noah Millot</div>
 
         <div class="footer-links">
-            <a href="#">A-propos</a>
-            <a href="#">Projets</a>
-            <a href="#">Contact</a>
+            <a href="/portfolio-bts/index.php?page=accueil#parcours">À propos</a>
+            <a href="/portfolio-bts/index.php?page=projects">Projets</a>
+            <a href="/portfolio-bts/index.php?page=contact">Contact</a>
         </div>
 
         <div class="footer-icons">
             <a href="https://github.com/Nosstix" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="/portfolio/pages/contactme.php/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/noah-millot-2505a4389" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="mailto:noah.millot.m@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
 
         <div class="footer-bottom">
-            © 2025 Noah Millot | Tous droits réservés
+            © 2026 Noah Millot | Tous droits réservés
         </div>
     </div>
 </div>

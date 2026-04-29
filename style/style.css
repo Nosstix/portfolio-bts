@@ -1058,6 +1058,239 @@ h4 {
     cursor: pointer;
 }
 
+/* Sections dans la modale compétences */
+.skill-modal-section {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.skill-modal-section h4 {
+    margin: 0 0 6px 0;
+    color: #ff4c4c;
+    font-size: 1.05rem;
+}
+
+.skill-modal-section p {
+    margin: 0;
+    line-height: 1.5;
+    color: #eaeaea;
+}
+
+/* Menu latéral accueil */
+.home-side-nav {
+    position: fixed;
+    left: 18px;
+    top: 140px;
+    z-index: 900;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 12px;
+    background: rgba(15, 15, 15, 0.75);
+    border: 1px solid rgba(255, 76, 76, 0.25);
+    backdrop-filter: blur(6px);
+}
+
+.home-side-nav .side-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+    white-space: nowrap;
+    font-size: 0.95rem;
+}
+
+.home-side-nav .side-link i {
+    color: #ff4c4c;
+    width: 18px;
+    text-align: center;
+}
+
+.home-side-nav .side-link:hover {
+    background: rgba(255, 76, 76, 0.12);
+}
+
+@media (max-width: 1100px) {
+    .home-side-nav {
+        display: none;
+    }
+}
+
+/* Timeline: garder les années sur une seule ligne */
+.home-timeline .date {
+    display: inline-block;
+    min-width: 110px;
+    font-weight: 700;
+    color: #ffb3b3;
+    margin-right: 10px;
+}
+
+/* Projets: titres et grilles (version modale) */
+.project-container {
+    max-width: 1100px;
+    margin: 90px auto 50px;
+    padding: 30px;
+    background-color: rgba(20, 20, 20, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.22);
+    color: #fff;
+}
+
+.project-page-title {
+    text-align: center;
+    color: #ff4c4c;
+    margin-bottom: 10px;
+}
+
+.project-intro {
+    text-align: center;
+    color: #ddd;
+    max-width: 850px;
+    margin: 0 auto 25px auto;
+    line-height: 1.6;
+}
+
+.project-section-title {
+    margin-top: 30px;
+    margin-bottom: 14px;
+    color: #ffb3b3;
+    border-left: 4px solid #ff4c4c;
+    padding-left: 10px;
+    font-size: 1.1rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.project-card h3 {
+    margin: 10px 0 8px 0;
+    font-size: 1.05rem;
+    color: #fff;
+}
+
+.project-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ddd;
+    line-height: 1.4;
+}
+
+.project-tag {
+    margin-top: 14px;
+    display: inline-flex;
+    align-self: flex-start;
+    background: rgba(255, 0, 0, 0.18);
+    padding: 5px 10px;
+    border-radius: 999px;
+    color: #ffcccc;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 980px) {
+    .project-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .project-grid { grid-template-columns: 1fr; }
+}
+
+/* Modale projets */
+.project-modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+}
+
+.project-modal.open { display: flex; }
+
+.project-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.project-modal-content {
+    position: relative;
+    background: #111;
+    border-radius: 10px;
+    padding: 20px;
+    width: 92%;
+    max-width: 700px;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.project-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.project-modal-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 8px 0 14px 0;
+}
+
+.project-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 76, 76, 0.6);
+    color: #ffdddd;
+    background: rgba(255, 76, 76, 0.10);
+    font-size: 0.85rem;
+}
+
+.project-stack {
+    color: #ffb3b3;
+    font-size: 0.9rem;
+}
+
+.project-modal-details {
+    color: #eaeaea;
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.project-modal-pdf {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    background: rgba(255, 0, 0, 0.9);
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.15s ease;
+}
+
+.project-modal-pdf:hover {
+    background: #ff4c4c;
+    box-shadow: 0 0 10px rgba(255, 76, 76, 0.7);
+}
+
 /* =========================================================
    BTS SIO
    ========================================================= */
@@ -1581,4 +1814,743 @@ h4 {
     background-color: #2b1111;
     border-color: #ff4c4c;
     box-shadow: 0 0 10px rgba(255, 76, 76, 0.7);
+}
+
+.project-modal-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.home-side-nav {
+    position: fixed;
+    top: 50%;
+    left: 22px;
+    transform: translateY(-50%);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 16px;
+    background: rgba(10, 10, 10, 0.82);
+    border: 1px solid rgba(255, 76, 76, 0.35);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(6px);
+}
+
+.home-side-nav .side-link {
+    min-width: 122px;
+    padding: 10px 12px;
+    font-weight: 500;
+}
+
+.home-side-nav .side-link:hover {
+    background: rgba(255, 76, 76, 0.16);
+    transform: translateX(2px);
+}
+
+
+/* =========================================================
+   AJUSTEMENTS FINAUX - Fusion portfolio BTS
+   ========================================================= */
+
+/* Animation d'entrée légère sans propriété qui casse les éléments fixed. */
+.page-content {
+    animation: pageEnter 0.45s ease both;
+}
+
+@keyframes pageEnter {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Lien inline vers la page BTS dans la présentation. */
+.bts-inline-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.bts-inline-link:hover {
+    color: #ff4c4c;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(255, 76, 76, 0.45);
+}
+
+/* Nouvelle photo : on garde un cadre propre même avec un format différent. */
+.about-image img {
+    width: 360px;
+    max-width: min(360px, 100%);
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center top;
+}
+
+/* Timeline : on évite que les dates viennent se battre avec le texte. */
+.home-timeline li {
+    padding-left: 150px;
+    min-height: 52px;
+}
+
+.home-timeline .date {
+    width: 130px;
+}
+
+/* Petit ajustement responsive pour l'accueil. */
+@media (max-width: 768px) {
+    .home-timeline li {
+        padding-left: 0;
+    }
+
+    .home-timeline .date {
+        position: static;
+        display: block;
+        margin-bottom: 6px;
+        width: auto;
+    }
+
+    .about-image img {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+
+/* Correctifs accueil: garder la page centrée et éviter le décalage à droite. */
+.about-container {
+    max-width: 1100px;
+    margin: 90px auto 40px auto;
+    padding: 0 24px;
+}
+
+.about-text {
+    flex: 1 1 560px;
+    max-width: 560px;
+}
+
+.about-image {
+    flex: 0 0 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    object-fit: cover;
+}
+
+.home-about-container {
+    max-width: 1100px;
+    margin: 40px auto 80px auto;
+}
+
+@media (max-width: 1200px) {
+    .home-side-nav {
+        left: 12px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text,
+    .about-image {
+        max-width: 100%;
+        flex: unset;
+    }
+}
+
+
+/* Lien documentation officielle dans les modales de compétences */
+.skill-modal-doc {
+    margin-top: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 13px;
+    border-radius: 8px;
+    background: rgba(255, 76, 76, 0.14);
+    border: 1px solid rgba(255, 76, 76, 0.55);
+    color: #ffdddd;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.15s ease;
+}
+
+.skill-modal-doc:hover {
+    background: rgba(255, 76, 76, 0.28);
+    color: #ffffff;
+    box-shadow: 0 0 12px rgba(255, 76, 76, 0.55);
+}
+
+/* Contact - formulaire Formspree */
+.contact-container {
+    max-width: 680px;
+    margin: 140px auto 80px auto;
+    padding: 25px;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(185, 28, 28, 0.6);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.contact-container h1 {
+    color: #ff4c4c;
+    margin-bottom: 25px;
+}
+
+.contact-table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+.contact-table td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+    font-size: 1rem;
+}
+
+.contact-table td a {
+    color: #ff7b7b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-table td a:hover {
+    color: #ff3333;
+    text-shadow: 0 0 7px rgba(255, 0, 0, 0.7);
+}
+
+.contact-email-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.contact-send-btn,
+.contact-submit-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #ff4c4c;
+    color: #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+.contact-send-btn:hover,
+.contact-submit-btn:hover {
+    background: #ff6666;
+    box-shadow: 0 0 12px rgba(255, 76, 76, 0.55);
+}
+
+.contact-modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1060;
+}
+
+.contact-modal.open {
+    display: flex;
+}
+
+.contact-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.72);
+}
+
+.contact-modal-card {
+    position: relative;
+    z-index: 2;
+    width: 92%;
+    max-width: 560px;
+    background: #111;
+    color: #fff;
+    border: 1px solid rgba(255, 76, 76, 0.45);
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 0 0 24px rgba(255, 0, 0, 0.45);
+}
+
+.contact-modal-card h2 {
+    color: #ff4c4c;
+    margin-bottom: 8px;
+}
+
+.contact-modal-intro {
+    color: #dddddd;
+    margin-bottom: 18px;
+}
+
+.contact-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.contact-form label {
+    color: #ffb3b3;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 11px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 76, 76, 0.35);
+    background: #1b1b1b;
+    color: #fff;
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff4c4c;
+    box-shadow: 0 0 10px rgba(255, 76, 76, 0.35);
+}
+
+.contact-submit-btn {
+    margin-top: 8px;
+    width: 100%;
+    padding: 11px 14px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* BTS - débouchés */
+.bts-job-title {
+    color: #ffb3b3;
+    font-size: 1rem;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+/* Bas de page projets : tableau de synthèse + autres projets */
+.project-bottom-zone {
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: 1fr 1.35fr;
+    gap: 22px;
+    align-items: stretch;
+}
+
+.project-synthesis-card,
+.project-other-card {
+    background: #141416;
+    border: 1px solid rgba(255, 76, 76, 0.38);
+    border-radius: 14px;
+    padding: 22px;
+    box-shadow: 0 0 16px rgba(255, 0, 0, 0.24);
+}
+
+.project-synthesis-card h2,
+.project-other-card h2 {
+    color: #ff4c4c;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project-synthesis-card p,
+.project-other-card p {
+    color: #dddddd;
+    line-height: 1.55;
+}
+
+.project-synthesis-frame {
+    width: 100%;
+    height: 470px;
+    border: none;
+    border-radius: 10px;
+    background: #1e1e1e;
+    margin: 10px 0 14px 0;
+    box-shadow: 0 0 14px rgba(255, 76, 76, 0.18);
+}
+
+.other-project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.other-project-mini {
+    min-height: 118px;
+    background: linear-gradient(135deg, #18181b, #210d0d);
+    border: 1px solid rgba(255, 76, 76, 0.35);
+    border-radius: 12px;
+    padding: 14px;
+    cursor: pointer;
+    transition: 0.15s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.other-project-mini:hover {
+    transform: translateY(-2px);
+    border-color: #ff4c4c;
+    box-shadow: 0 0 14px rgba(255, 76, 76, 0.45);
+}
+
+.other-project-mini h3 {
+    color: #fff;
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+.other-project-mini span {
+    align-self: flex-start;
+    font-size: 0.75rem;
+    color: #ffcccc;
+    background: rgba(255, 76, 76, 0.13);
+    border-radius: 999px;
+    padding: 4px 8px;
+}
+
+@media (max-width: 980px) {
+    .project-bottom-zone {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .other-project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-synthesis-frame {
+        height: 360px;
+    }
+}
+
+
+/* =========================================================
+   PATCH CONTACT – retour ancien tableau + bouton envoyer
+   ========================================================= */
+.contact-container {
+    max-width: 600px;
+    margin: 140px auto 80px auto;
+    padding: 25px;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(185, 28, 28, 0.6);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.contact-container h1 {
+    color: #ff4c4c;
+    margin-bottom: 25px;
+}
+
+.contact-table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+.contact-table td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 1rem;
+    background: transparent;
+}
+
+.contact-table tr:nth-child(even) {
+    background-color: transparent;
+}
+
+.contact-table td:first-child {
+    width: 38%;
+    text-align: left;
+    color: #f5f5f5;
+    font-weight: 600;
+}
+
+.contact-table td:nth-child(2) {
+    text-align: left;
+}
+
+.contact-table td a {
+    color: #ff7b7b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-table td a:hover {
+    color: #ff3333;
+    text-shadow: 0 0 7px rgba(255, 0, 0, 0.7);
+}
+
+.contact-email-line {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.contact-send-btn {
+    padding: 7px 11px;
+    font-size: 0.88rem;
+    border-radius: 8px;
+    background: #ff4c4c;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+.contact-send-btn:hover {
+    background: #ff6666;
+    box-shadow: 0 0 12px rgba(255, 76, 76, 0.55);
+}
+
+@media (max-width: 650px) {
+    .contact-container {
+        margin: 110px 15px 60px;
+    }
+
+    .contact-table td {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .contact-table td:first-child {
+        width: 100%;
+        padding-bottom: 4px;
+    }
+
+    .contact-table td:nth-child(2) {
+        padding-top: 4px;
+    }
+}
+
+/* Sécurité : plus de message au survol sur la photo de l'accueil. */
+.about-image .hover-text {
+    display: none !important;
+}
+
+/* =========================================================
+   PATCH VEILLE 2026 – cartes, RSS robuste et mémo
+   ========================================================= */
+.veille-update-banner {
+    margin: 20px 0 25px;
+    padding: 18px 20px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, rgba(255, 76, 76, 0.18), rgba(20, 20, 20, 0.95));
+    border: 1px solid rgba(255, 76, 76, 0.35);
+    box-shadow: 0 0 14px rgba(255, 76, 76, 0.12);
+}
+
+.veille-update-banner span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #ffb3b3;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.veille-update-banner p {
+    margin: 0;
+    color: #f1f1f1;
+    line-height: 1.55;
+}
+
+.veille-key-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    margin-top: 15px;
+}
+
+.veille-key-card {
+    padding: 16px;
+    border-radius: 12px;
+    background: #1f1f23;
+    border: 1px solid rgba(255, 76, 76, 0.28);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.12);
+}
+
+.veille-key-card h4 {
+    color: #ffb3b3;
+    margin-bottom: 8px;
+}
+
+.veille-key-card p {
+    margin: 0;
+}
+
+.rss-note {
+    margin-top: 12px;
+    font-size: 0.82rem;
+    color: #bdbdbd;
+}
+
+.veille-memo-zone {
+    text-align: center;
+    margin-top: 28px;
+}
+
+.veille-memo-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 76, 76, 0.55);
+    background: rgba(255, 76, 76, 0.18);
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+.veille-memo-btn:hover {
+    background: rgba(255, 76, 76, 0.32);
+    box-shadow: 0 0 14px rgba(255, 76, 76, 0.5);
+    transform: translateY(-2px);
+}
+
+.veille-memo-btn i {
+    font-size: 1.2rem;
+}
+
+.veille-memo-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1060;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.veille-memo-modal.open {
+    display: flex;
+}
+
+.veille-memo-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.76);
+}
+
+.veille-memo-card {
+    position: relative;
+    z-index: 2;
+    width: min(1040px, 96vw);
+    max-height: 88vh;
+    overflow-y: auto;
+    background: #111;
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 26px;
+    border: 1px solid rgba(255, 76, 76, 0.45);
+    box-shadow: 0 0 26px rgba(255, 0, 0, 0.42);
+}
+
+.veille-memo-card h2 {
+    color: #ff4c4c;
+    margin-bottom: 18px;
+    padding-right: 34px;
+}
+
+.veille-memo-close {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.veille-memo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.veille-memo-grid > div {
+    background: #1b1b1f;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 76, 76, 0.24);
+    padding: 15px;
+}
+
+.veille-memo-grid h4 {
+    color: #ffb3b3;
+    margin-bottom: 8px;
+}
+
+.veille-memo-grid ul {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.veille-memo-grid li,
+.veille-memo-grid p {
+    font-size: 0.94rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+    .veille-key-grid,
+    .veille-memo-grid {
+        grid-template-columns: 1fr;
+    }
 }

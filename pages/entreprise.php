@@ -6,7 +6,7 @@
     </p>
 
     <div class="entreprise-section">
-        <h2>🏢 Présentation générale</h2>
+        <h2><i class="fas fa-building"></i> Présentation générale</h2>
         <p>
             <strong>MSA-TEAM France</strong> est une entreprise de services numériques qui travaille
             sur des projets variés autour de l’écosystème <strong>Microsoft</strong> et des
@@ -26,7 +26,7 @@
     </div>
 
     <div class="entreprise-section">
-        <h2>🛠️ Technologies et environnement</h2>
+        <h2><i class="fas fa-screwdriver-wrench"></i> Technologies et environnement</h2>
         <p>
             L’entreprise s’appuie principalement sur l’écosystème <strong>Microsoft</strong> et des technologies
             associées :
@@ -49,7 +49,7 @@
     </div>
 
     <div class="entreprise-section">
-        <h2>🌍 Une dimension franco-tunisienne</h2>
+        <h2><i class="fas fa-globe"></i> Une dimension franco-tunisienne</h2>
         <p>
             MSA-TEAM France est liée à des activités de développement en <strong>Tunisie</strong>,
             notamment autour d’une <strong>marketplace</strong> visant à :
@@ -67,7 +67,7 @@
 
     <div class="entreprise-section entreprise-grid">
         <div>
-            <h2>👨‍💻 Mon rôle en tant qu’alternant</h2>
+            <h2><i class="fas fa-user-gear"></i> Mon rôle en tant qu’alternant</h2>
             <p>
                 En tant qu’alternant, je suis principalement présent pour <strong>apprendre</strong> et
                 monter en compétences. Pour l’instant, je n’ai pas encore été amené à intervenir directement
@@ -85,7 +85,7 @@
         </div>
 
         <div class="entreprise-note">
-            <h3>🎯 Objectif de mon alternance</h3>
+            <h3><i class="fas fa-bullseye"></i> Objectif de mon alternance</h3>
             <p>
                 L’objectif principal de mon alternance chez MSA-TEAM France est de :
             </p>
