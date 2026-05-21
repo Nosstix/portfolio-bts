@@ -1,62 +1,53 @@
 <div class="veille-container">
     <h1 class="veille-title"><i class="fas fa-microchip"></i> Veille technologique</h1>
     <p class="veille-subtitle">
-        Sujet suivi : la tension sur le marché de la mémoire informatique
-        <strong>(DRAM, NAND, HBM, VRAM/GDDR)</strong> et ses conséquences sur l’IA,
-        les serveurs, les PC, les SSD, les consoles et l’électronique grand public.
+        Sujet suivi : la tension sur la mémoire informatique <strong>(DRAM, NAND, HBM, VRAM/GDDR)</strong>,
+        liée à l’IA, aux datacenters et à l’impact sur le matériel grand public.
     </p>
 
-
-    <div class="veille-section">
-        <h3><i class="fas fa-bullseye"></i> Pourquoi j’ai choisi ce sujet</h3>
+    <div class="veille-update-banner">
+        <span><i class="fas fa-rotate"></i> Mise à jour – mai 2026</span>
         <p>
-            J’ai choisi ce thème parce qu’il relie plusieurs domaines qui m’intéressent :
-            le hardware, l’économie du numérique, l’intelligence artificielle, les serveurs et l’impact direct
-            sur le matériel qu’on utilise au quotidien.
-        </p>
-        <p>
-            Avant, on regardait surtout le processeur ou la carte graphique. Aujourd’hui, la mémoire est devenue
-            un élément critique : sans assez de bande passante, de capacité et de stockage rapide, les GPU IA,
-            les serveurs et même les machines grand public sont limités.
+            Le sujet est encore plus important qu’avant : la demande des serveurs IA pousse les fabricants à privilégier
+            la HBM, la DRAM serveur et les SSD entreprise. Résultat : la RAM, les SSD et certains composants grand
+            public
+            risquent de devenir plus chers ou moins disponibles. L’économie du hardware, toujours aussi poétique.
         </p>
     </div>
 
     <div class="veille-section">
-        <h3><i class="fas fa-chart-line"></i> Ce qui a changé récemment</h3>
+        <h3><i class="fas fa-bullseye"></i> Pourquoi ce sujet ?</h3>
+        <p>
+            J’ai choisi ce thème parce qu’il relie le hardware, l’IA, les serveurs, le cloud et les composants utilisés
+            tous les jours.
+            La mémoire n’est plus un simple détail technique : elle devient un élément stratégique pour faire tourner
+            les GPU IA,
+            les datacenters et les machines modernes.
+        </p>
+    </div>
 
+    <div class="veille-section">
+        <h3><i class="fas fa-chart-line"></i> Points clés actuels</h3>
         <div class="veille-key-grid">
             <div class="veille-key-card">
                 <h4><i class="fas fa-server"></i> IA & datacenters</h4>
-                <p>
-                    Les grands acteurs du cloud et de l’IA réservent énormément de capacité mémoire pour leurs serveurs.
-                    La HBM et la DRAM serveur sont donc prioritaires par rapport à certains usages grand public.
+                <p>Les acteurs du cloud réservent beaucoup de capacité mémoire pour les serveurs IA.</p>
+            </div>
+
+            <div class="veille-key-card">
+                <h4><i class="fas fa-memory"></i> DRAM</h4>
+                <p>La DRAM classique reste sous pression, car une partie de la production part vers les usages serveur.
                 </p>
             </div>
 
             <div class="veille-key-card">
-                <h4><i class="fas fa-memory"></i> DRAM sous tension</h4>
-                <p>
-                    TrendForce prévoit une hausse des prix contractuels de la DRAM conventionnelle de
-                    <strong>58 à 63 % au 2e trimestre 2026</strong>, car les fabricants réorientent leur capacité
-                    vers la HBM et les applications serveur.
-                </p>
+                <h4><i class="fas fa-hard-drive"></i> NAND / SSD</h4>
+                <p>La NAND est aussi touchée, surtout avec la forte demande en SSD entreprise pour les datacenters.</p>
             </div>
 
             <div class="veille-key-card">
-                <h4><i class="fas fa-hard-drive"></i> NAND / SSD touchés</h4>
-                <p>
-                    La NAND est aussi concernée : les prix contractuels sont attendus en hausse de
-                    <strong>70 à 75 % au 2e trimestre 2026</strong>. Les SSD entreprise et les besoins datacenter
-                    passent avant certains produits grand public.
-                </p>
-            </div>
-
-            <div class="veille-key-card">
-                <h4><i class="fas fa-microchip"></i> HBM au centre du marché</h4>
-                <p>
-                    La HBM est essentielle aux GPU IA. SK hynix, Samsung et Micron se retrouvent au centre du marché,
-                    avec une demande très forte et une capacité difficile à augmenter rapidement.
-                </p>
+                <h4><i class="fas fa-microchip"></i> HBM</h4>
+                <p>La HBM est au centre du marché, car elle accompagne directement les GPU utilisés pour l’IA.</p>
             </div>
         </div>
     </div>
@@ -64,46 +55,38 @@
     <div class="veille-section">
         <h3><i class="fas fa-magnifying-glass-chart"></i> Analyse personnelle</h3>
         <p>
-            La situation ressemble moins à une simple hausse de prix classique qu’à un vrai changement de priorité.
-            Les fabricants privilégient les produits les plus rentables : HBM, DRAM serveur, modules haute capacité
-            et SSD entreprise. Résultat : le grand public récupère ce qui reste, et évidemment ce qui reste coûte plus
-            cher.
+            Le marché ne subit pas seulement une hausse de prix classique. Les priorités changent : les fabricants
+            cherchent les produits
+            les plus rentables et les clients les plus stratégiques. Les datacenters passent donc avant le grand public,
+            ce qui peut toucher
+            les PC, les SSD, les smartphones, les consoles et les cartes graphiques.
         </p>
-        <ul class="veille-list">
-            <li>Les PC, les portables et les upgrades RAM/SSD deviennent plus sensibles aux hausses de prix.</li>
-            <li>Les cartes graphiques peuvent aussi être touchées via la VRAM/GDDR et la pression sur les wafers
-                mémoire.</li>
-            <li>Les smartphones et consoles peuvent voir leurs coûts de production augmenter.</li>
-            <li>Les entreprises et les datacenters sécurisent des contrats longs pour éviter les ruptures.</li>
-        </ul>
     </div>
 
     <div class="veille-section">
         <h3><i class="fas fa-eye"></i> Ce que je surveille</h3>
         <ul class="veille-list">
-            <li>L’évolution des prix de la DRAM, de la NAND, de la HBM et de la VRAM/GDDR.</li>
-            <li>Les choix de production de Micron, Samsung et SK hynix.</li>
-            <li>Les annonces de Nvidia, AMD et des fournisseurs de serveurs IA.</li>
-            <li>L’impact sur les PC, les SSD, les smartphones, les consoles et les cartes graphiques.</li>
-            <li>Le moment où de nouvelles capacités de production pourront réellement soulager le marché.</li>
+            <li>Les prix de la DRAM, de la NAND, de la HBM et de la VRAM/GDDR.</li>
+            <li>Les annonces de Samsung, SK hynix, Micron et Kioxia.</li>
+            <li>Les besoins des datacenters, du cloud et des constructeurs de GPU IA.</li>
+            <li>L’impact sur les prix des PC, SSD, cartes graphiques, consoles et smartphones.</li>
         </ul>
     </div>
 
     <div class="veille-section">
-        <h3><i class="fas fa-book"></i> Ressources que je suis</h3>
+        <h3><i class="fas fa-book"></i> Ressources utilisées</h3>
         <div class="veille-resources-grid">
             <div class="veille-card">
                 <h4>Sources principales</h4>
                 <ul class="veille-links">
                     <li><a href="https://www.trendforce.com/presscenter/news/20260331-12995.html" target="_blank"
-                            rel="noopener">TrendForce – hausse DRAM/NAND 2Q26</a></li>
+                            rel="noopener">TrendForce – prix DRAM/NAND au 2e trimestre 2026</a></li>
                     <li><a href="https://www.reuters.com/world/asia-pacific/nvidia-supplier-sk-hynix-q1-profit-rises-406-meets-forecasts-2026-04-22/"
-                            target="_blank" rel="noopener">Reuters – SK hynix et demande IA</a></li>
-                    <li><a href="https://investors.micron.com/static-files/530bd7ed-a8c8-4687-af4a-8c129f740e09"
-                            target="_blank" rel="noopener">Micron – résultats et HBM 2026</a></li>
-                    <li><a href="https://news.skhynix.com/" target="_blank" rel="noopener">SK hynix Newsroom</a></li>
-                    <li><a href="https://www.samsung.com/semiconductor/" target="_blank" rel="noopener">Samsung
-                            Semiconductor</a></li>
+                            target="_blank" rel="noopener">Reuters – SK hynix, HBM et demande IA</a></li>
+                    <li><a href="https://www.reuters.com/world/asia-pacific/ai-boom-puts-sk-hynix-cusp-1-trillion-market-value-2026-05-14/"
+                            target="_blank" rel="noopener">Reuters – importance de SK hynix dans la chaîne IA</a></li>
+                    <li><a href="https://www.reuters.com/world/asia-pacific/memory-maker-kioxia-sees-82-billion-q1-profit-ai-boom-2026-05-15/"
+                            target="_blank" rel="noopener">Reuters – Kioxia et demande mémoire liée à l’IA</a></li>
                 </ul>
 
                 <h4>Suivi hardware</h4>
@@ -117,13 +100,10 @@
             </div>
 
             <div class="veille-card rss-block">
-                <h4><i class="fas fa-newspaper"></i> Derniers articles filtrés</h4>
-                <p class="rss-status" id="rss-status">
-                    Chargement des articles en cours...
-                </p>
+                <h4><i class="fas fa-newspaper"></i> Articles filtrés</h4>
+                <p class="rss-status" id="rss-status">Chargement des articles en cours...</p>
                 <ul id="rss-list" class="rss-list"></ul>
-                <p class="rss-note">
-                    Le flux utilise plusieurs sources avec un affichage de secours si un service bloque le chargement.
+                <p class="rss-note">Le flux affiche des articles liés à la mémoire, aux SSD, à l’IA et aux datacenters.
                 </p>
             </div>
         </div>
@@ -132,18 +112,16 @@
     <div class="veille-section">
         <h3><i class="fas fa-brain"></i> Ce que cette veille m’apporte</h3>
         <ul class="veille-list">
-            <li>Comprendre le lien entre hardware, économie et disponibilité réelle des composants.</li>
-            <li>Suivre comment l’IA influence directement le marché grand public.</li>
-            <li>Avoir une meilleure vision des choix techniques derrière les serveurs, GPU et infrastructures.</li>
-            <li>Développer une veille utile pour mes projets, ma culture technique et mon parcours en développement.
-            </li>
+            <li>Mieux comprendre le lien entre hardware, cloud, IA et coût des composants.</li>
+            <li>Relier une actualité technique à des impacts concrets pour les utilisateurs et les entreprises.</li>
+            <li>Développer une culture utile pour mes projets, mon BTS SIO et mon parcours de développeur.</li>
         </ul>
     </div>
 
     <div class="veille-memo-zone">
         <button type="button" class="veille-memo-btn" id="openVeilleMemo" aria-label="Ouvrir le mémo de révision"
             title="Mémo de révision">
-            <i class="fas fa-note-sticky"></i>
+            <i class="fas fa-note-sticky"></i><span></span>
         </button>
     </div>
 </div>
@@ -153,106 +131,137 @@
     <div class="veille-memo-card">
         <button type="button" class="veille-memo-close" id="closeVeilleMemo">&times;</button>
 
-        <h2><i class="fas fa-note-sticky"></i> Fiche de révision – Veille mémoire</h2>
+        <h2><i class="fas fa-note-sticky"></i> Mémo oral – Veille & portfolio</h2>
 
         <div class="veille-memo-grid">
             <div>
                 <h4>Problématique</h4>
                 <p>
-                    Comment la forte demande liée à l’intelligence artificielle et aux datacenters peut-elle
-                    créer des tensions sur le marché de la mémoire informatique et impacter le grand public ?
+                    Comment la demande liée à l’IA et aux datacenters peut-elle créer des tensions sur la mémoire
+                    informatique
+                    et impacter les prix des composants grand public ?
                 </p>
             </div>
 
             <div>
-                <h4>Idée principale</h4>
+                <h4>Résumé en 20 secondes</h4>
                 <p>
-                    La mémoire n’est plus un simple composant secondaire. Elle devient un élément stratégique,
-                    car les serveurs IA ont besoin de beaucoup de débit, de capacité et de stockage rapide.
+                    La mémoire devient stratégique : les GPU IA ont besoin de HBM, les serveurs ont besoin de DRAM et
+                    les datacenters
+                    consomment beaucoup de SSD. Les fabricants priorisent donc ces marchés, ce qui peut réduire l’offre
+                    pour le grand public.
                 </p>
             </div>
 
             <div>
                 <h4>Définitions à connaître</h4>
                 <ul>
-                    <li><strong>DRAM :</strong> mémoire vive utilisée par les PC, serveurs et smartphones.</li>
-                    <li><strong>NAND :</strong> mémoire de stockage utilisée dans les SSD, clés USB et téléphones.</li>
-                    <li><strong>HBM :</strong> mémoire empilée à très haut débit, surtout utilisée avec les GPU IA.</li>
-                    <li><strong>VRAM/GDDR :</strong> mémoire dédiée aux cartes graphiques et au rendu graphique.</li>
-                    <li><strong>Datacenter :</strong> centre de données regroupant beaucoup de serveurs.</li>
+                    <li><strong>DRAM :</strong> mémoire vive des PC, serveurs et smartphones.</li>
+                    <li><strong>NAND :</strong> mémoire de stockage utilisée dans les SSD.</li>
+                    <li><strong>HBM :</strong> mémoire très rapide utilisée avec les GPU IA.</li>
+                    <li><strong>VRAM/GDDR :</strong> mémoire dédiée aux cartes graphiques.</li>
+                    <li><strong>Datacenter :</strong> centre regroupant des serveurs pour cloud, IA et services
+                        numériques.</li>
                 </ul>
             </div>
 
             <div>
                 <h4>Acteurs importants</h4>
                 <ul>
-                    <li><strong>Fabricants mémoire :</strong> Samsung, SK hynix, Micron.</li>
-                    <li><strong>Clients majeurs :</strong> cloud, IA, datacenters, constructeurs de serveurs.</li>
-                    <li><strong>GPU IA :</strong> Nvidia et AMD influencent indirectement la demande mémoire.</li>
-                    <li><strong>Grand public :</strong> PC, SSD, consoles, smartphones et cartes graphiques.</li>
+                    <li><strong>Fabricants mémoire :</strong> Samsung, SK hynix, Micron, Kioxia.</li>
+                    <li><strong>Clients majeurs :</strong> cloud, datacenters, IA, fabricants de serveurs.</li>
+                    <li><strong>GPU IA :</strong> Nvidia et AMD influencent fortement la demande mémoire.</li>
+                    <li><strong>Grand public :</strong> PC, SSD, consoles, smartphones, cartes graphiques.</li>
                 </ul>
             </div>
 
             <div>
                 <h4>Causes des tensions</h4>
                 <ul>
-                    <li>Explosion de la demande en IA générative et en serveurs spécialisés.</li>
-                    <li>Besoin massif en HBM pour accompagner les GPU IA.</li>
-                    <li>Réorientation d’une partie de la production vers les produits les plus rentables.</li>
-                    <li>Capacité de production longue à augmenter, car les usines coûtent très cher.</li>
-                    <li>Contrats longs signés par les grands acteurs du cloud pour sécuriser les stocks.</li>
+                    <li>Explosion de la demande en IA générative.</li>
+                    <li>Besoin massif en HBM pour les accélérateurs IA.</li>
+                    <li>Capacité de production difficile à augmenter rapidement.</li>
+                    <li>Contrats longs passés par les grands acteurs du cloud.</li>
+                    <li>Réorientation de la production vers les produits les plus rentables.</li>
                 </ul>
             </div>
 
             <div>
-                <h4>Conséquences directes</h4>
+                <h4>Conséquences possibles</h4>
                 <ul>
-                    <li>Hausse possible du prix de la RAM, des SSD et des composants liés à la mémoire.</li>
-                    <li>Priorité donnée aux serveurs, à l’IA et aux produits professionnels.</li>
-                    <li>Moins de disponibilité pour certains produits grand public.</li>
-                    <li>PC, smartphones, consoles et cartes graphiques potentiellement plus chers.</li>
-                    <li>Les constructeurs doivent adapter leurs stocks, leurs prix et leurs gammes.</li>
+                    <li>Hausse du prix de la RAM et des SSD.</li>
+                    <li>PC et smartphones plus chers ou moins bien équipés.</li>
+                    <li>Cartes graphiques potentiellement touchées par la VRAM/GDDR.</li>
+                    <li>Priorité donnée aux serveurs et aux clients professionnels.</li>
                 </ul>
             </div>
 
             <div>
                 <h4>Analyse personnelle</h4>
                 <p>
-                    Cette veille montre que l’innovation technique peut déplacer les priorités économiques.
-                    L’IA accélère la demande en composants spécialisés, ce qui crée une concurrence entre
-                    les usages professionnels et les besoins du grand public. Comme toujours, le consommateur
-                    découvre la facture à la fin, moment préféré de l’économie moderne.
+                    Cette veille montre qu’une innovation logicielle comme l’IA peut avoir des conséquences très
+                    matérielles : usines,
+                    composants, stocks, prix et disponibilité. Ce n’est pas seulement une actualité hardware, c’est un
+                    sujet d’infrastructure numérique.
                 </p>
             </div>
 
             <div>
-                <h4>Ce qu’il faut surveiller</h4>
+                <h4>Lien avec le BTS SIO</h4>
                 <ul>
-                    <li>L’évolution des prix de la DRAM, de la NAND, de la HBM et de la VRAM.</li>
-                    <li>Les annonces de Samsung, SK hynix et Micron sur leurs capacités de production.</li>
-                    <li>La demande des datacenters et des fournisseurs cloud.</li>
-                    <li>L’impact sur les prix des PC, SSD, cartes graphiques et consoles.</li>
-                    <li>L’arrivée de nouvelles générations comme HBM4 et les évolutions DDR5.</li>
+                    <li>Comprendre les serveurs et le cloud derrière les applications.</li>
+                    <li>Relier matériel, performance, stockage et coût d’une solution.</li>
+                    <li>Développer une culture technique utile pour l’entreprise.</li>
+                    <li>Savoir présenter une veille claire, sourcée et actualisée.</li>
                 </ul>
             </div>
 
             <div>
-                <h4>Pourquoi c’est lié au BTS SIO</h4>
-                <ul>
-                    <li>Comprendre l’infrastructure matérielle derrière les services numériques.</li>
-                    <li>Relier développement, serveurs, cloud, stockage et performance.</li>
-                    <li>Développer une culture technique utile pour l’entreprise et les projets informatiques.</li>
-                    <li>Savoir expliquer l’impact économique d’un choix technologique.</li>
-                </ul>
-            </div>
-
-            <div>
-                <h4>Phrase à retenir pour l’oral</h4>
+                <h4>Phrase simple pour l’oral</h4>
                 <p>
-                    « J’ai choisi cette veille car elle montre que la mémoire informatique est devenue stratégique :
-                    avec l’IA et les datacenters, la demande augmente fortement, ce qui peut provoquer des hausses
-                    de prix et une moindre disponibilité pour le grand public. »
+                    « J’ai choisi cette veille parce qu’elle montre que la mémoire informatique est devenue stratégique
+                    avec l’IA :
+                    la demande des datacenters peut provoquer des hausses de prix et moins de disponibilité pour le
+                    grand public. »
                 </p>
+            </div>
+
+            <div>
+                <h4>Plan pour présenter la veille en 2 minutes</h4>
+                <ul>
+                    <li><strong>20 s :</strong> présenter le sujet et la problématique.</li>
+                    <li><strong>35 s :</strong> expliquer DRAM, NAND, HBM et pourquoi l’IA consomme autant.</li>
+                    <li><strong>35 s :</strong> donner les conséquences : prix, disponibilité, priorités serveur.</li>
+                    <li><strong>30 s :</strong> conclure avec le lien BTS SIO et ce que ça t’apporte.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Marche à suivre – présenter le portfolio en 10 minutes</h4>
+                <ul>
+                    <li><strong>0:00 - 0:45 :</strong> te présenter : BTS SIO SLAM, alternance, objectif développeur.
+                    </li>
+                    <li><strong>0:45 - 2:00 :</strong> expliquer le BTS SIO et pourquoi tu as choisi SLAM.</li>
+                    <li><strong>2:00 - 3:15 :</strong> présenter MSA-TEAM France et ton rôle en alternance.</li>
+                    <li><strong>3:15 - 5:45 :</strong> montrer tes projets principaux, surtout LS Motors et le
+                        portfolio.</li>
+                    <li><strong>5:45 - 7:00 :</strong> parler de tes compétences : PHP, SQL, MVC, Git, Linux, C#/.NET.
+                    </li>
+                    <li><strong>7:00 - 8:30 :</strong> présenter rapidement la veille technologique et son intérêt.</li>
+                    <li><strong>8:30 - 9:30 :</strong> conclure sur ton évolution et ta poursuite en bachelor.</li>
+                    <li><strong>9:30 - 10:00 :</strong> laisser une ouverture pour les questions du jury.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Conseils pour ne pas te perdre</h4>
+                <ul>
+                    <li>Ne lis pas les pages, commente-les.</li>
+                    <li>Annonce toujours ce que tu montres avant de cliquer.</li>
+                    <li>Sur chaque projet : besoin, technologies, fonctionnalités, ce que tu as appris.</li>
+                    <li>Garde LS Motors comme projet principal, pas comme décoration de vitrine.</li>
+                    <li>Si une page charge mal, continue à l’oral : le jury juge aussi ta réaction.</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -266,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const keywords = [
         'dram', 'ddr5', 'ddr4', 'ram', 'memory', 'mémoire',
         'nand', 'ssd', 'flash', 'hbm', 'hbm3e', 'hbm4',
-        'vram', 'gddr', 'micron', 'sk hynix', 'samsung', 'ai server', 'datacenter'
+        'vram', 'gddr', 'micron', 'sk hynix', 'samsung', 'kioxia', 'ai server', 'datacenter'
     ];
 
     const feeds = [{
@@ -284,18 +293,18 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
 
     const fallbackArticles = [{
-            title: 'TrendForce – DRAM +58 à 63 % et NAND +70 à 75 % prévues en 2Q26',
+            title: 'TrendForce – hausse DRAM/NAND au 2e trimestre 2026',
             link: 'https://www.trendforce.com/presscenter/news/20260331-12995.html',
             source: 'Source de secours'
         },
         {
-            title: 'Reuters – SK hynix porté par la demande IA et la HBM',
+            title: 'Reuters – SK hynix, forte demande IA et HBM',
             link: 'https://www.reuters.com/world/asia-pacific/nvidia-supplier-sk-hynix-q1-profit-rises-406-meets-forecasts-2026-04-22/',
             source: 'Source de secours'
         },
         {
-            title: 'Tom’s Hardware – suivi hardware, RAM, SSD et composants',
-            link: 'https://www.tomshardware.com/news',
+            title: 'Reuters – Kioxia portée par la demande mémoire liée à l’IA',
+            link: 'https://www.reuters.com/world/asia-pacific/memory-maker-kioxia-sees-82-billion-q1-profit-ai-boom-2026-05-15/',
             source: 'Source de secours'
         }
     ];

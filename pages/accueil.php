@@ -39,7 +39,7 @@
     <div class="about-text">
         <h2>👋 Salut</h2>
         <p>
-            Je m’appelle <strong>Noah Millot</strong> (<strong>Nosstix_15</strong>) et <?php echo $formationActuelle; ?>.
+            Je m’appelle <strong>Noah Millot</strong> et <?php echo $formationActuelle; ?>.
             Je me forme au développement d’applications web et de solutions informatiques.
         </p>
         <p>
@@ -197,7 +197,7 @@
                     "Utilisé depuis environ 2023 pour isoler et gérer mes serveurs de jeux (Minecraft, ARK, etc.) et certains environnements de développement."],
                 ['VS Code', 'fa-solid fa-code',
                     "Mon éditeur de code de base quand j’ai commencé : léger, extensible et pratique pour le web grâce à ses nombreuses extensions."],
-                ['Solutions IntelliJ / JetBrains', 'fa-solid fa-lightbulb',
+                ['Solutions JetBrains', 'fa-solid fa-lightbulb',
                     "Je regroupe ici les IDE JetBrains que j’utilise selon les projets : IntelliJ IDEA pour Java, PhpStorm pour PHP, PyCharm pour Python et Rider pour C#/.NET."],
                 ['VMware', 'fa-solid fa-server',
                     "Solution de virtualisation que j’utilise pour créer des machines virtuelles, tester des environnements et travailler sur des installations comme Debian ou GLPI sans casser ma machine principale. Parce que casser une VM, c’est quand même plus élégant."],
@@ -218,8 +218,8 @@
             ],
 
             'Systèmes & markup' => [
-                ['Linux (Ubuntu)', 'fa-brands fa-linux',
-                    "Je l’utilise depuis 2022 pour héberger mes propres serveurs de jeux. Je suis passé de simples machines virtuelles à une machine dédiée qui fait tourner plusieurs serveurs en parallèle."],
+                ['Linux (Ubuntu / Debian)', 'fa-brands fa-linux',
+                    "Je l’utilise depuis 2022 pour héberger mes propres serveurs de jeux et tester des environnements Linux, notamment Ubuntu et Debian."],
                 ['HTML', 'fa-brands fa-html5',
                     "Base de tous mes projets web : structure de pages, formulaires, sémantique et organisation propre du contenu."],
                 ['CSS', 'fa-brands fa-css3-alt',
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', function() {
             about: "Visual Studio Code est un éditeur de code publié par Microsoft en 2015. Il est très utilisé grâce à ses extensions, son intégration Git et sa capacité à s’adapter à beaucoup de langages.",
             doc: "https://code.visualstudio.com/docs"
         },
-        "Solutions IntelliJ / JetBrains": {
+        "Solutions JetBrains": {
             why: "Je regroupe ici les environnements JetBrains que j’utilise selon les besoins : IntelliJ IDEA pour Java, PhpStorm pour PHP, PyCharm pour Python et Rider pour C#/.NET. Ça évite d’avoir une collection de cartes qui donnent l’impression d’un inventaire de magasin d’IDE.",
             about: "Les IDE JetBrains sont des environnements de développement complets. Ils apportent autocomplétion avancée, refactorisation, outils Git, débogage et navigation efficace dans les projets complexes.",
             doc: "https://www.jetbrains.com/help/"
@@ -387,7 +387,7 @@ document.addEventListener('DOMContentLoaded', function() {
             about: "Google Docs, Sheets, Slides et Agenda font partie de Google Workspace. Ce sont des outils en ligne de bureautique et d’organisation très pratiques pour travailler, partager et collaborer facilement.",
             doc: "https://support.google.com/docs/"
         },
-        "Linux (Ubuntu)": {
+        "Linux (Ubuntu / Debian)": {
             why: "J’ai commencé à apprendre Linux au lycée, surtout sur Ubuntu, puis j’ai continué en BTS avec Debian. Je l’utilise aussi régulièrement pour mes serveurs.",
             about: "Linux est un système d’exploitation open source très utilisé sur les serveurs. Ubuntu et Debian sont deux distributions connues pour leur stabilité, leur documentation et leur usage fréquent en administration système.",
             doc: "https://help.ubuntu.com/"
